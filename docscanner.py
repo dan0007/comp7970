@@ -6,7 +6,7 @@
 
 dictionary = {}
 prevVal = ""
-with open("/root/code/comp7970/Dataset/CA-GrQc.txt") as f:          # opens file
+with open("D:\Fall 2017\Big Data\comp7970\Dataset\CA-GrQc.txt") as f:          # opens file
     totalAuthors = 5242
     j = 0
     for line in f:                                                  # loops thru db
@@ -29,7 +29,7 @@ with open("/root/code/comp7970/Dataset/CA-GrQc.txt") as f:          # opens file
 # BINS 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-with open("/root/code/comp7970/Dataset/CA-GrQc.txt") as g:          # opens file
+with open("D:\Fall 2017\Big Data\comp7970\Dataset\CA-GrQc.txt") as g:          # opens file
     totalRange = big - small                                        # db range
     binwidth = totalRange/10                                        # num of authors that make up 1 bin
     currentBin = 0
